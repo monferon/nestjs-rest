@@ -7,7 +7,7 @@ import { ProductsModule } from './products/products.module';
   imports: [
     ProductsModule,
     MongooseModule.forRoot(
-      `mongodb+srv://kit:Passw0rd@cluster0.qtdgn.mongodb.net/products?retryWrites=true&w=majority`,
+      `mongodb+srv://kit:<password>@cluster0.qtdgn.mongodb.net/<dbname>?retryWrites=true&w=majority`,
     ),
   ],
   controllers: [AppController],
